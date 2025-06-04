@@ -2,7 +2,7 @@
 
 **Objetivo:**
 
-Este projeto tem como objetivo analisar os dados de churn de clientes de uma empresa (não especificada) para identificar os principais fatores que contribuem para o cancelamento de serviços. O objetivo é fornecer insights acionáveis para que a empresa possa implementar estratégias de retenção de clientes mais eficazes.
+Este projeto tem como objetivo analisar os dados de churn de clientes da empresa TelecomX para identificar os principais fatores que contribuem para o cancelamento de serviços. O objetivo é fornecer insights acionáveis para que a empresa possa implementar estratégias de retenção de clientes mais eficazes.
 
 **Linguagem de Programação:**
 
@@ -14,10 +14,8 @@ Este projeto tem como objetivo analisar os dados de churn de clientes de uma emp
 *   **Plotly:** Utilizada para criação de gráficos interativos e visualizações avançadas. Permite gerar gráficos de dispersão 3D, gráficos de barras e gráficos de pizza com recursos de zoom, rotação e tooltips.
 *   **Matplotlib:** Utilizada para criação de gráficos estáticos e visualizações básicas. Permite gerar histogramas, boxplots e gráficos de barras.
 *   **Seaborn:** Construída sobre o Matplotlib, oferece uma interface de alto nível para criar gráficos estatísticos atraentes e informativos.
-*   **IPython.display:** Permite exibir os gráficos do Folium (mapas) diretamente no Colab, sem precisar salvar em arquivos externos.
-*   **Folium:** Permite criar mapas interativos com marcadores e mapas de calor para visualizar dados geográficos.
 *   **json_normalize:** Facilita o processo de converter arquivos JSON em formato tabular, melhorando a manipulação dos dados.
-*   **ast:** Auxilia na conversão de strings para listas.
+
 
 **Ambiente de Desenvolvimento (IDE):**
 
@@ -48,8 +46,7 @@ Os dados utilizados neste projeto são provenientes de um arquivo JSON. Este arq
 *   `PaymentMethod`: Método de pagamento do cliente.
 *   `Charges.Monthly`: Valor das cobranças mensais do cliente.
 *   `Charges.Total`: Valor total das cobranças do cliente.
-*   `lat`: latitude
-*   `lon`: longitude
+
 
 **Etapas da Análise:**
 
@@ -60,7 +57,7 @@ Os dados utilizados neste projeto são provenientes de um arquivo JSON. Este arq
     *   Tratamento de valores ausentes e remoção de linhas duplicadas.
     *   Correção do tipo de dados da coluna `Charges.Total` para float.
     *   Criação da coluna `Contas_Diarias` para calcular o valor diário da conta de cada cliente.
-2.  **Análise Exploratória dos Dados (AED):**
+2.  **Análise Exploratória dos Dados (EDA):**
     *   Análise da distribuição do churn.
     *   Análise do churn por gênero, tipo de contrato e método de pagamento.
     *   Análise da relação entre as variáveis numéricas (tempo de contrato e cobranças totais) e o churn.
