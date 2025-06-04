@@ -1,10 +1,10 @@
-# Análise de Churn de Clientes
+👩🏼‍💻# Análise de Churn de Clientes
 
-**Objetivo:**
+✨**Objetivo:**
 
 Este projeto tem como objetivo analisar os dados de churn de clientes da empresa TelecomX para identificar os principais fatores que contribuem para o cancelamento de serviços. O objetivo é fornecer insights acionáveis para que a empresa possa implementar estratégias de retenção de clientes mais eficazes.
 
-**Linguagem de Programação:**
+📊**Linguagem de Programação:**
 
 *   **Python:** A linguagem principal utilizada para a análise de dados, manipulação dos dados, criação de visualizações e geração de insights.
 
@@ -21,7 +21,7 @@ Este projeto tem como objetivo analisar os dados de churn de clientes da empresa
 
 *   **Google Colaboratory (Colab):** Plataforma de desenvolvimento em nuvem que permite executar código Python em um ambiente Jupyter Notebook, com acesso gratuito a recursos de computação e bibliotecas populares de ciência de dados.
 
-**Dados:**
+🎲**Dados:**
 
 Os dados utilizados neste projeto são provenientes de um arquivo JSON. Este arquivo contém informações sobre clientes, seus planos de serviço, informações de contato e histórico de cobranças. As colunas relevantes para a análise incluem:
 
@@ -48,7 +48,7 @@ Os dados utilizados neste projeto são provenientes de um arquivo JSON. Este arq
 *   `Charges.Total`: Valor total das cobranças do cliente.
 
 
-**Etapas da Análise:**
+🤯**Etapas da Análise:**
 
 1.  **Carregamento e Limpeza dos Dados:**
     *   Carregamento dos dados a partir do arquivo JSON utilizando a biblioteca Pandas.
